@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파리바게트</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="shortcut icon" href="icons/paris baguette faavicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 헤더 - pos:f 
+        내용3단- fl:l  pos:a  fl:r-->
+    <header>
+        <div id="header">
+            <div id="h_left">
+                <ul>
+                    <li>PB MAGAZINE<div class="bdb_box"></div></li>
+                    <li>PB STORY<div class="bdb_box"></div></li>
+                    <li>PRODUCTS<div class="bdb_box"></div></li>
+                    <!-- w568 h248 -->
+                </ul>
+            </div>
+            <h1 id="main_logo"><img src="icons/main_logo.png" alt=""></h1>
+            <div id="h_right">
+                <ul>
+                    <li>STORE<div class="bdb_box"></div></li>
+                    <li>DELIVERY<div class="bdb_box"></div></li>
+                    <li>PROMOTION<div class="bdb_box"></div></li>
+                    <li><img src="icons/search_icon.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!--  -->
+    <div id="popup">
+        <img src="images/popup_banner.jpg" alt="">
+        <div id="close_bt"></div>
+    </div>
+<!--  -->
+    <section>
+        <div id="main_banner">
+            <div id="bannerbx1"><img src="images/main_banner1.jpg" alt=""></div>
+            <div id="bannerbx2"><img src="images/main_banner2.jpg" alt=""></div>
+            <div id="bannerbx3"><img src="images/main_banner3.jpg" alt=""></div>
+        </div>
+        <div id="magazine">
+            <div id="m_txt">
+                <div id="m_txt1"><h2>PB MAGAZINE</h2></div>
+                <div id="m_txt2"><p>SHOW MORE</p></div>
+            </div>
+            <div id="m_media">
+                <div class="m_img">
+                    <img src="images/magazin1_600x750.png" alt="">
+                    <div class="m_txt_bg">
+                        <div class="pos_txt">
+                            <h4>무안 양파</h4>
+                            <p>무안 양파농가와 함께한 모두가 행복한 ESG 행복상생 프로젝트</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_img">
+                    <img src="images/magazin2_600x750.png" alt="">
+                    <div class="m_txt_bg">
+                        <div class="pos_txt">
+                            <h4>파리바게뜨 마카롱 8종</h4>
+                            <p>더욱 새로워진 파바 리뉴얼 마카롱</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_img">
+                    <img src="images/magazin3_600x750.png" alt="">
+                    <div class="m_txt_bg">
+                        <div class="pos_txt">
+                            <h4>논산 비타베리 딸기</h4>
+                            <p>논산 청년농부와 함께한 모두가 행복한 ESG 행복상생 프로젝트</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="story">
+            <div id="s_txt">
+                <div id="s_txt1"><h2>PB STORY</h2></div>
+                <div id="s_txt2"><p>SHOW MORE</p></div>
+            </div>
+            <div id="s_media">
+                <div class="s_box">
+                    <div class="s_box_blur"></div>                
+                    <img src="images/PB-VIDEO_1-600x600.png" alt="">
+                    <div class="s_box_txt">
+                        <h6>BREAD VIDEO</h6>
+                        <h3>내 올해의 빙수 캐리비안 패션빙수 알아보기!🍧</h3>
+                        <p>🍧내 올해의 빙수로 선정🍧캐리비안 패션빙수 궁금한분 모두 모엿!❤️ (Feat. 팔아야 산다)</p>
+                        <p>2022-05-30</p>
+                    </div>
+                </div>
+                <div class="s_box">
+                    <div class="s_box_blur"></div>
+                    <img src="images/PB-VIDEO_2-600x600.png" alt="">
+                    <div class="s_box_txt">
+                        <h6>BREAD VIDEO</h6>
+                        <h3>진짜 ‘맛’을 느끼는 고독한 빵식가 최시원 편💙</h3>
+                        <p>[고독한 빵식가 : 최시원 편] 애프터눈 커피 & 디저트</p>
+                        <p>2022-05-30</p>
+                    </div>
+                </div>
+                <div class="s_box">
+                    <div class="s_box_blur"></div>
+                    <img src="images/PB-VIDEO_3-600x600.png" alt="">
+                    <div class="s_box_txt">
+                        <h6>BREAD VIDEO</h6>
+                        <h3>파바와 함께하는 스승의날👨‍🏫 With 승제쌤</h3>
+                        <p>이왜진~? 스승의 날 맞이승제쌤 덕질하고 왔습니다!파바X 승제쌤💖</p>
+                        <p>2022-05-16</p>
+                    </div>
+                </div>
+                <div class="s_box">
+                    <div class="s_box_blur"></div>
+                    <img src="images/PB-VIDEO_4-600x600.png" alt="">
+                    <div class="s_box_txt">
+                        <h6>BREAD VIDEO</h6>
+                        <h3>제주 마음샌드 – 한라봉 이야기🍊</h3>
+                        <p>제주 마음샌드 -한라봉 이야기💙 제주가 키우고 파리바게뜨가 담아낸 마음🍊</p>
+                        <p>2022-05-16</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="promotion">
+            <div id="p_txt">
+                <div id="p_txt1"><h2>PROMOTION</h2></div>
+                <div id="p_txt2"><p>SHOW MORE</p></div>
+            </div>
+            <div id="p_media">
+                <div class="p_box">
+                    <div class="p_imgbox">
+                        <img src="images/promotion1_1000_1000-31-600x600.jpg" alt="">
+                        <div class="p_box_blur"></div>
+                    </div>
+                    <h4>6월 1일은 파바데이! (feat. 4번째 생일)</h4>
+                    <p>READ MORE</p>
+                    <div class="p_pos">
+                        <p>진행중</p>  
+                    </div>
+                </div>
+                <div class="p_box">
+                    <div class="p_imgbox">
+                        <img src="images/promotion2_1000_1000-30-600x600.jpg" alt="">
+                        <div class="p_box_blur"></div>
+                    </div>
+                    
+                    <h4>서울과 파리의 거국적 만남! 장수 막걸리 쉐이크 출시!</h4>
+                    <p>READ MORE</p>
+                    <div class="p_pos">
+                        <p>진행중</p>  
+                    </div>
+                </div>
+                <div class="p_box">
+                    <div class="p_imgbox">
+                        <img src="images/promotio3_600x600.png" alt="">
+                        <div class="p_box_blur"></div>
+                    </div>
+                    
+                    <h4>프리미엄 오더메이드 케이크 오픈!</h4>
+                    <p>READ MORE</p>
+                    <div class="p_pos">
+                        <p>진행중</p>  
+                    </div>
+                </div>
+                <div class="p_box">
+                    <div class="p_imgbox">
+                        <img src="images/promotion4_1000_1000-600x600.jpg" alt="">
+                        <div class="p_box_blur"></div>
+                    </div>
+                    
+                    <h4>랩 오브 파리바게트를 만나보세요!</h4>
+                    <p>READ MORE</p>
+                    <div class="p_pos">
+                        <p>진행중</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <div id="pd_txt">
+                <div id="pd_txt1"><h2>PRODUCTS</h2></div>
+                <div id="pd_txt2"><p>SHOW MORE</p></div>
+            </div>
+            <div id="pd_content">
+                <img src="icons/bx-prev2.png" alt="" id="prev_btn">
+                <img src="icons/bx-next2.png" alt="" id="next_btn">
+
+                <div id="pd_content_box_all">
+                    <div class="pd_content_box">
+                        <div class="pd_content_wrap">
+                            <div class="pd_content_box_blur"></div>
+                            <img src="images/productus1_0106-600x600.png" alt="">
+                        </div>
+                        <h5>피치요거트 마카롱</h5>
+                        <p>달콤한 봉숭아 크림이 상큼한 요거트 크림이 어우러진 피치요거트 마카롱</p>
+                    </div>
+                    <div class="pd_content_box">
+                        <div class="pd_content_wrap">
+                            <div class="pd_content_box_blur"></div>
+                            <img src="images/productus2_600x600.png" alt=""></div>
+                        <h5>파송송 정통짜장면</h5>
+                        
+                    </div>
+                    <div class="pd_content_box">
+                        <div class="pd_content_wrap">
+                            <div class="pd_content_box_blur"></div>
+                            <img src="images/productus3-600x600.jpg" alt=""></div>
+                        <h5>두부텐더 콥 샐러드</h5>
+                        
+                    </div>
+                    <div class="pd_content_box">
+                        <div class="pd_content_wrap">
+                            <div class="pd_content_box_blur"></div>
+                            <img src="images/productus4-600x600.jpg" alt="">
+                        </div>
+                        <h5>베리 리코타 치킨 샐러드</h5>
+                        
+                    </div>
+                    <div class="pd_content_box">
+                        <div class="pd_content_wrap">
+                            <div class="pd_content_box_blur"></div>
+                            <img src="images/productus5-600x600.jpg" alt="">
+                        </div>
+                        <h5>로스트 치킨 시저 샐러드</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sns">
+            <div id="sns_txt">
+                <h3>@parisbaguette_kr</h3>
+                <p>Instagram</p>
+            </div>
+            <ul>
+                <li>
+                    <div class="sns_blur"></div>
+                    <img src="images/283978531_5173448982748023_3418271527771588886_n.jpg" alt="">
+                </li>
+                <li>
+                    <div class="sns_blur">
+                        <div id="sns_b_txt">
+                            <p>6월 5일,<br>오늘은 환경의 날 입니다🍃<br>
+                                일회용 칼 요청 시 제공부터<br>
+                                에코젠 소재 친환경 컵 사용까지💚<br>
+                                지구를 위한 파바의 작은 </p>
+                        </div>
+                    </div>
+                    <img src="images/284219840_511105384041610_3626557959286861219_n.jpg" alt="">
+                </li>
+                <li>
+                    <div class="sns_blur"></div>
+                    <img src="images/284278668_335126165368997_6245603281749473202_n.jpg" alt="">
+                </li>
+                <li>
+                    <div class="sns_blur"></div>
+                    <img src="images/284770034_700183081210667_7414809944714427542_n.jpg" alt="">
+                </li>
+                <li>
+                    <div class="sns_blur"></div>
+                    <img src="images/285416139_1447129955747915_5402946560430930612_n.jpg" alt="">
+                </li>
+                <li>
+                    <div class="sns_blur"></div>
+                    <img src="images/285634058_343382217746157_2725421763015067208_n.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <div id="bottom_menu">
+            <div class="menu_box">
+                <div class="menu_txt">
+                    <h6>고객센터</h6>
+                    <p>고객의 소리를 적극 경청하고 고객만족 향상 활동을 지속적으로 실천합니다.</p>
+                    <img src="icons/btn.png" alt="" class="menu_btn">
+                </div>
+                
+                <div class="menu_blur"></div>
+            </div>
+            <div class="menu_box">
+                <div class="menu_txt">
+                    <h6>제휴카드안내</h6>
+                    <p>해피포인트와 제휴카드 정보를 확인하세요.</p>
+                    <img src="icons/btn.png" alt="" class="menu_btn">
+                </div>
+                <div class="menu_blur"></div>
+            </div>
+            <div class="menu_box">
+                <div class="menu_txt">
+                    <h6>공지사항</h6>
+                    <p>파리바게뜨 공지내용을 확인하세요.</p>
+                    <img src="icons/btn.png" alt="" class="menu_btn">
+                </div>
+                <div class="menu_blur"></div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div id="footer_box1">
+            <div id="footer_box1_t">
+                <div id="footer_box1_txt1">
+                    <h5>Info</h5>
+                    <ul>
+                        <li>브랜드소개</li>
+                        <li>창업안내</li>
+                        <li>거래희망사전등록</li>
+                        <li>윤리신고센터</li>
+                        <li>채용</li>
+                    </ul>
+                </div>
+                <div id="footer_box1_txt2">
+                    <h5>Contact Us</h5>
+                    <ul>
+                        <li>고객센터</li>
+                        <li>080-731-2027</li>
+                        <li>평일 09:00 - 17:00 (점심 12:00 - 13:00)</li>
+                        <li>고객칭찬</li>
+                    </ul>
+                </div>
+                <div id="footer_box1_txt3">
+                    <h5><img src="icons/footer-logo-img-01.png" alt=""></h5>
+                    <ul>
+                        <li><img src="icons/footer-logo-img-06.png" alt=""></li>
+                        <li><img src="icons/footer-logo-img-02.png" alt=""></li>
+                        <li><img src="icons/footer-logo-img-03.png" alt=""></li>
+                        <li><img src="icons/footer-logo-img-04.png" alt=""></li>
+                        <li><img src="icons/footer-logo-img-05.png" alt=""></li>
+                    </ul>
+                </div>
+                <div id="footer_box1_txt4">
+                    <h5>Follow Us</h5>
+                    <ul>
+                        <li><img src="icons/sns_f.png" alt=""></li>
+                        <li><img src="icons/sns_i.png" alt=""></li>
+                        <li><img src="icons/sns_u.png" alt=""></li>
+                    </ul>
+                    <select name="" id="">
+                        <option value="">Brand Site</option>
+                        <option value="">파리크라상</option>
+                        <option value="">파스쿠찌</option>
+                        <option value="">파리바게뜨 중국</option>
+                        <option value="">배스킨라빈스</option>
+                        <option value="">던킨도너츠</option>
+                        <option value="">(주)샤니</option>
+                        <option value="">(주)삼립식품</option>
+                        <option value="">해피포인트</option>
+                        <option value="">SPC외식브랜드</option>
+                        <option value="">디퀸즈케이터링</option>
+                    </select>
+                </div>
+            </div>
+            <div id="footer_box1_b">
+                <ul>
+                    <li>이용약관</li>
+                    <li>개인정보처리방침</li>
+                    <li>이메일무단수집거부</li>
+                    <li>영상정보처리기기운영관리방침</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_box2">
+            <h6>All Rights Reserved © PARIS BAGUETTE, PARIS CROISSANT CO., LTD. 경기도 성남시 중원구 상대원동 사기막골로 31번길 18 (주) 파리크라상</h6>
+        </div>
+    </footer>
+    <!--  -->
+    <div id="navi">
+        <ul>
+            <li>
+                <img src="icons/chevron-up.svg" alt="">
+                <h6>Top</h6> 
+                <div id="bd"></div>
+            </li>
+            <li>
+                <img src="icons/store1.svg" alt="">
+                <h6>STORE</h6>
+               
+            </li>
+            <li>
+                <img src="icons/delivery1.svg" alt="">
+                <h6>DELIVERY</h6>
+            </li>
+            <li>
+                <img src="icons/bell1.svg" alt="">
+                <h6>PROMO</h6>
+            </li>
+            <li>
+                <img src="icons/franchise.svg" alt="">
+                <h6>창업안내</h6>
+            </li>
+            <li>
+                <img src="icons/mobile-app-2.svg" alt="">
+                <h6>APP</h6>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
